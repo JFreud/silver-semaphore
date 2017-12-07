@@ -11,6 +11,7 @@
 
 int main(int argc, char *argv[]) {
 
+  printf("Use the variables arg and n. e.g. $ make run arg=c n=4 or $ make run arg=v\n");
   int semid;
   key_t key= ftok ("sema.c", 'J');
   int n;
